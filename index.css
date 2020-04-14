@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.poetry{
+    text-align: center;
+}
+
+h1 {
+    color: rgb(92, 57, 5);
+    font-family: 'STFangsong';
+    margin: 20px 0 10px 10px;
+    font-size: 33px;
+    letter-spacing: 10px;
+}
+
+#author {
+    color: rgb(117, 73, 6);
+    font-family: "楷体";
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+#main {
+    color: rgb(90, 52, 5);
+    font-family: 'STFangsong';
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.change:hover{
+    color: rgb(58, 29, 2);
+    font-size: 24px;
+    font-family: "华文新魏";
+    font-weight: normal;
+}
+
+#beian{
+    position: fixed;
+    left: 5px;
+    width: 240px;
+    bottom: 5px;
+}
+
+#gxb{
+    width: 100%;
+    text-align: center;
+    border:1px dashed rgb(58, 29, 2);
+    border-radius: 8px;
+    height: 17px;
+    line-height: 17px;
+}
+
+#beianh{
+    color: rgb(58, 29, 2);
+    font-family: 'Times New Roman', cursive;
+    font-size: 15px;
+}
