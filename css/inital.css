@@ -73,3 +73,25 @@ table {
 p {
     word-wrap: break-word
 }
+
+#beian{
+    position: fixed;
+    right: 5px;
+    width: 240px;
+    bottom: 5px;
+}
+
+#gxb{
+    width: 100%;
+    text-align: center;
+    border:1px dashed rgb(58, 29, 2);
+    border-radius: 8px;
+    height: 17px;
+    line-height: 17px;
+}
+
+#beianh{
+    color: rgb(58, 29, 2);
+    font-family: 'Times New Roman', cursive;
+    font-size: 15px;
+}
