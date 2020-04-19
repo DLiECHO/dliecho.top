@@ -1,12 +1,12 @@
 // document.addEventListener('DOMContentLoaded', function () {
 //     document.querySelector('main').className += 'loaded';
 // });
-alert('本页面并没有为不同设备、浏览器做适配工作\r\n页面右侧动画点击分别为bgm的暂停和继续\r\nbgm：林俊杰-伟大的渺小');
+alert('重要提示：\r\n1：页面并没有为不同设备、浏览器做适配工作\r\n2：页面左侧动画点击回到首页\r\n3：页面右侧动画点击分别为bgm的播放与暂停\r\n4：bgm：林俊杰-伟大的渺小');
 setTimeout(function() {
     var e = document.createEvent("MouseEvents");
     e.initEvent("click", true, true);
     document.getElementById("clnav").dispatchEvent(e);
-}, 500);
+}, 999);
 
 setTimeout(function() {
         var e = document.createEvent("MouseEvents");
