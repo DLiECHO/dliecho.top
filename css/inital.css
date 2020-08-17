@@ -22,15 +22,17 @@ select {
     padding: 0
 }
 
-@font-face{
+@font-face {
     font-family: Long;
     src: url('fonts/Long.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: Zhi;
     src: url('fonts/Zhi.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: Ma;
     src: url('fonts/Ma.ttf');
 }
@@ -74,23 +76,40 @@ p {
     word-wrap: break-word
 }
 
-#beian{
+#beian {
     position: fixed;
     right: 5px;
-    width: 240px;
+    width: 230px;
     bottom: 5px;
+    padding: 2px 2px 2px 3px;
+    border: 1px dashed rgb(58, 29, 2);
+    border-radius: 8px;
 }
 
-#gxb{
+#gxb {
     width: 100%;
     text-align: center;
-    border:1px dashed rgb(58, 29, 2);
-    border-radius: 8px;
-    height: 17px;
-    line-height: 17px;
+    /* border:1px dashed rgb(58, 29, 2);
+    border-radius: 8px; */
+    /* height: 17px;
+    line-height: 17px; */
 }
 
-#beianh{
+#beianh {
+    color: rgb(58, 29, 2);
+    font-family: 'Times New Roman', cursive;
+    font-size: 15px;
+}
+
+#total_gongan {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+#gongan {
+    display: flex;
     color: rgb(58, 29, 2);
     font-family: 'Times New Roman', cursive;
     font-size: 15px;
